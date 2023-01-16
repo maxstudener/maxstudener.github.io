@@ -2,96 +2,98 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+      value: Maxmillian Studener
+    - name: Located In
+      value: Smyrna, Tennessee, United States
+    - name: Phone
+      value: 615-426-9855
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Manager of Application Development
+      institution: VitalSource
+      year: 2018 - now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Supports the employee's career development efforts.
+        - Understands the role competencies and helps facilitate employee career development.
+        - Provides the necessary tooling, information, and resources needed for development.
+        - Conducts open and honest career discussions with employees.
+        - Supports the creation of an employee career development plan.
+        - Works with employee to monitor progress against the plan.
+        - Leads groups of developers and sets direction, monitors and provides technical oversight.
+        - Designs, develops, and directs others in the development of custom software to meet business and user requirements.
+        - Provides High Level Estimates in response to product requests and works with Product Owners to refine and prioritize work.
+        - Optimizes team velocity and improves quality standards in delivery.
+
+    - title: Senior Software Engineer
+      institution: VitalSource
+      year: 2015 - 2018
       description:
-        - Description 1.
-        - Description 2.
+        - Delivers enterprise-grade software solutions with high customer impact.
+        - Delivers results through independent contributes and through mentoring of other engineers.
+        - Drives solutions and guides the work of others to provide full application development life cycle support including specifications, prototypes, development, QA, and deployment.
+        - Develops new design patterns, standards, etc and works with other developers in implementation.
+        - Champions innovations and expands the sphere of influence through mentoring and guidance.
+        - Technical expertise in opensource software solutions.
+        - Utilizes expertise to drive technical decisions and solutions via mentoring and pull requests.
+        - Leverages a technical network to collaborate across the organization.
+        - Leads groups of developers and sets direction, monitors and provides technical oversight.
+        - Designs, develops, and directs others in the development of custom software to meet business and user requirements.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Senior Software Engineer
+      institution: WS Packaging Group
+      year: 2012 - 2015
       description:
+        - Direct technical oversight of all Web Development. This involved working closely with individuals on the Web Development team, within the broader IT organization, and throughout all of WSPG, to solve the challenges that impact our online products and services. Contributed directly toward the future architecture of WebFlex and our Web Services platform as WSPG continues to offer new ways to do business, including automation, mobile services, and eCommerce. Additionally, I continued to improve upon our development and documentation standards, providing a standardized and supportable environment for current and future development.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Internet Services Developer
+      institution: WS Packaging Group
+      year: 2011 - 2012
+      description:
+        - Created proof-of-concept prototype applications for demonstration and evaluation purposes.
+        - Programmed applications and tools using Ruby On Rails, JQuery/JavaScript, and SQL with goals for code abstraction, stability, and reuse.
+        - Instrumented and modified unit and integration tests to improve software quality and reliability.
+        - Conducted full life-cycle software development in multiple software environments.
+        - Optimized system performance by making proactive adjustments and resolving bugs.
+
+    - title: Contractor Software Developer
+      institution: Ditto Labs, Inc
+      year: 2014 - 2015
+      description:
+        - Made an application able to run automated tests on commits and deploy using Codeship. Created provisioned virtual machines via Vagrant and, used Ansible for the provisioning of the servers. Wrote tasks to backfill millions of records from Social Media APIs and then used the data to build heatmaps and stream photos using google maps API.
+
+    - title: Contractor Software Developer
+      institution: WeMontage
+      year: 2013 - 2014
+      description:
+        - Rewrote the entire code base to be simplified using different API software solutions. Produced a development environment to do beta testing and simplified deploys using Apache/Passenger. Reorganized file system storage. Built a JavaScript solution that would stream multiple images into a JavaScript canvas via streaming bytes from multiple image sources concurrently to produce a montage.
+
+- title: Education
+  type: time_table
+  contents:
+    - title: IT Programmer Analyst, PC programming, Web Development
+      institution: Fox Valley Technical College
+      year: 2010
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+    - title: <a href="https://github.com/maxstudener/react-mui-daterange-picker">react-mui-daterange-picker</a>
       year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+      description: A react date range picker using mui v5 components.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Skills
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - GCP/AWS
+    - Kubernetes
+    - JavaScript/Ruby
+    - React/Rails
+    - Angular 1.x
+    - SQL
+    - Linux
+    - Continues Integration
+    - Continues Deployment
+    - JIRA/Atlassian Product Suite
+    - Git
